@@ -14,13 +14,13 @@ curl -X POST --user clientapp:112233 "http://localhost:8080/oauth/token?grant_ty
 响应案例：
 
 ```json
-{
-    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MjM3MDkyNzUsInVzZXJfbmFtZSI6ImJvYm8iLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiYTAxODc4NmUtY2I5MS00ZGFkLTg4NTUtNDM1ZjQ4ZGI4ZjllIiwiY2xpZW50X2lkIjoiY2xpZW50YXBwIiwic2NvcGUiOlsicmVhZF91c2VyaW5mbyJdfQ.Qa5qPDM866cI9PANyNBU7_8eGXh4-YHYpW2uVIhIbO8",
-    "token_type": "bearer",
-    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJib2JvIiwic2NvcGUiOlsicmVhZF91c2VyaW5mbyJdLCJhdGkiOiJhMDE4Nzg2ZS1jYjkxLTRkYWQtODg1NS00MzVmNDhkYjhmOWUiLCJleHAiOjE1MjYyNTgwNzUsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiIxYmEwMTNmYy01YjdjLTRjNmUtYWFhMy01NTQxYTNkMjYwMWIiLCJjbGllbnRfaWQiOiJjbGllbnRhcHAifQ.UMsddrfevWv9K7EQFAei7JrBXTw7jTxsjt2vB-WeWMs",
-    "expires_in": 43199,
-    "scope": "read_userinfo",
-    "jti": "a018786e-cb91-4dad-8855-435f48db8f9e"
+{  
+   "access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MjgxMTA5MTQsInVzZXJfbmFtZSI6ImJvYm8iLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiMDEyMWIwOGYtMDRkOS00ZjIyLTllYzUtYTZlOTM0MDZhNGU4IiwiY2xpZW50X2lkIjoiY2xpZW50YXBwIiwic2NvcGUiOlsicmVhZF91c2VyaW5mbyJdfQ.9kCLwKOxSAQiYJIKFlfaxnzNfoFwt1LizlC5pmX-sso",
+   "token_type":"bearer",
+   "refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJib2JvIiwic2NvcGUiOlsicmVhZF91c2VyaW5mbyJdLCJhdGkiOiIwMTIxYjA4Zi0wNGQ5LTRmMjItOWVjNS1hNmU5MzQwNmE0ZTgiLCJleHAiOjE1MzA2NTk3MTQsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiJiMWE5ZmVmNi1hNTM1LTQ2OTItOTk1Ni0zMzMxZGQyNDdkYmUiLCJjbGllbnRfaWQiOiJjbGllbnRhcHAifQ.BVFb0rBgGaJJWSL_bN8qGCR962RL05TkVrPY-oR6p3Q",
+   "expires_in":43199,
+   "scope":"read_userinfo",
+   "jti":"0121b08f-04d9-4f22-9ec5-a6e93406a4e8"
 }
 ```
 
