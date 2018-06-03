@@ -20,3 +20,6 @@ public class ClientRestTemplateApplication implements ServletContextInitializer 
     }
 
 }
+
+//http://localhost:9001
+//http://localhost:9001/h2-console

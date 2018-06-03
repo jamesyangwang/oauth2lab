@@ -30,7 +30,34 @@ public class ClientUser {
     @Transient
     private List<Entry> entries = new ArrayList<>();
 
-    public Long getId() {
+    public ClientUser() {
+		super();
+	}
+
+	public ClientUser(Long id, String username, String password, String accessToken, Calendar accessTokenValidity,
+			String refreshToken) {
+		super();
+		this.id = id;
+		this.username = username;
+		this.password = password;
+		this.accessToken = accessToken;
+		this.accessTokenValidity = accessTokenValidity;
+		this.refreshToken = refreshToken;
+	}
+
+	public ClientUser(Long id, String username, String password, String accessToken, Calendar accessTokenValidity,
+			String refreshToken, List<Entry> entries) {
+		super();
+		this.id = id;
+		this.username = username;
+		this.password = password;
+		this.accessToken = accessToken;
+		this.accessTokenValidity = accessTokenValidity;
+		this.refreshToken = refreshToken;
+		this.entries = entries;
+	}
+
+	public Long getId() {
         return id;
     }
 
