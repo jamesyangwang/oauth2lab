@@ -26,7 +26,7 @@ curl -X POST --user clientapp:112233 "http://localhost:8080/oauth/token?grant_ty
 
 ### 4. 调用API
 
-curl -X GET http://localhost:8081/api/userinfo -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MjM3MDkyNzUsInVzZXJfbmFtZSI6ImJvYm8iLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiYTAxODc4NmUtY2I5MS00ZGFkLTg4NTUtNDM1ZjQ4ZGI4ZjllIiwiY2xpZW50X2lkIjoiY2xpZW50YXBwIiwic2NvcGUiOlsicmVhZF91c2VyaW5mbyJdfQ.Qa5qPDM866cI9PANyNBU7_8eGXh4-YHYpW2uVIhIbO8"
+curl -X GET http://localhost:8081/api/userinfo -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MjgxMTA5MTQsInVzZXJfbmFtZSI6ImJvYm8iLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiMDEyMWIwOGYtMDRkOS00ZjIyLTllYzUtYTZlOTM0MDZhNGU4IiwiY2xpZW50X2lkIjoiY2xpZW50YXBwIiwic2NvcGUiOlsicmVhZF91c2VyaW5mbyJdfQ.9kCLwKOxSAQiYJIKFlfaxnzNfoFwt1LizlC5pmX-sso"
 
 案例响应：
 
